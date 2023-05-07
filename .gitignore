@@ -1,0 +1,24 @@
+# Arquivos e pastas que devem ser ignorados em um projeto Node.js
+
+# Dependências instaladas pelo npm
+node_modules/
+
+# Logs e arquivos de log
+logs/
+*.log
+
+# Arquivos gerados durante a execução do projeto
+dist/
+build/
+
+# Arquivos de configuração do sistema
+.env
+
+# Arquivos de backup
+*.bak
+*.backup
+*.swp
+
+# Outros arquivos
+.DS_Store
+Thumbs.db
